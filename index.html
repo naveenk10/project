@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Literature Club</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <div class="header-1">
+        <a href="#" class="logo">
+          <i class="fas fa-book"></i>Online Literature Club</a
+        >
+
+        <form action="" class="search-form">
+          <input
+            type="search"
+            name=""
+            placeholder="search here..."
+            id="search-box"
+          />
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+          <div id="search-btn" class="fas fa-search"></div>
+          <a href="#" class="fas fa-heart"></a>
+          <div id="login-btn" class="fas fa-user"></div>
+        </div>
+      </div>
+
+      <div class="header-2">
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#featured">popular</a>
+          <a href="#arrivals">library</a>
+          <a href="#discussions">discussions</a>
+          <a href="#reviews">reviews</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+      <a href="#home" class="fas fa-home"></a>
+      <a href="#featured" class="fas fa-list"></a>
+      <a href="#arrivals" class="fas fa-tags"></a>
+      <a href="#reviews" class="fas fa-comments"></a>
+    </nav>
+
+    <!-- login form  -->
+
+    <div class="login-form-container">
+      <div id="close-login-btn" class="fas fa-times"></div>
+
+      <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input
+          type="email"
+          name=""
+          class="box"
+          placeholder="enter your email"
+          id=""
+        />
+        <span>password</span>
+        <input
+          type="password"
+          name=""
+          class="box"
+          placeholder="enter your password"
+          id=""
+        />
+        <div class="checkbox">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn" />
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+      </form>
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <div class="row">
+            <img src="image/gita2.png" alt="" height="450" width="380" />
+            <div class="content">
+              <h3></h3>
+              <h1 class="heading-title">Bhagavad Gita</h1>
+              <p class="gita2">
+                The Bhagavad Gita, with its profound philosophical insights and
+                practical teachings, delves into the essence of life, duty, and
+                the pursuit of self-realization. It transcends time and culture
+                to become a beacon of light, offering solace, inspiration, and
+                enlightenment to seekers throughout the ages. This early epic
+                poem recounts the conversation between the warrior and his
+                charioteer, the divine manifestation. It sets out the important
+                lessons to learn to change the outcome of the war in the moments
+                before a great battle that the warrior fights.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="number"></div>
+          <div class="row">
+            <img src="image/kalki.png" alt="" height="430" width="300" />
+            <div class="content">
+              <h3></h3>
+              <h1 class="heading-title">Mahayoddha Kalki</h1>
+              <p class="gita2">
+                This is the beginning of the end. Kalki Hari arrives at Indrani
+                to find out that his brother has been taken prisoner, his
+                beloved is about to be butchered, and the City is embroiled in a
+                ghastly war with the Naga queen and Dakshini king. Armed with a
+                mighty sword forged by a God, he fights to take the city back
+                from his nemesis, the evil Kali. But the avatar of Vishnu is at
+                a crossroads. It is his destiny to fight the last battle with
+                adharm and obliterate evil from this world. However, he has
+                stumbled upon a terrible truth over the course of his journey...
+                A truth that may change everything.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="number"></div>
+          <div class="row">
+            <img src="image/ram.png" alt="" height="420" />
+            <div class="content">
+              <h3></h3>
+              <h1 class="heading-title">Ramayana</h1>
+              <p class="gita2">
+                Ramayana is one of the greatest epics of Hindu Religion.The
+                author captures the pathos and beauty of Valmiki's magic in
+                inimatable manner.Written in homely style,the work is striking
+                in originality and beauty of expression. The popularity of the
+                book is so great that it has run into forty two impressions ever
+                since it was originally published in the year 1951.At least by the 1st century AD, Valmiki's
+                reputation as the father of Sanskrit classical poetry seems to
+                have been legendary. Ashvagosha writes in the Buddhacarita, "The
+                voice of Valmiki uttered poetry which the great seer Chyavana
+                could not compose." 
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+        </div>
+        <a class="previ" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="nexti" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
+
+    <!-- home section ense  -->
+
+    <!-- popular books section starts  -->
+
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>Popular books</span></h1>
+
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/book1.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Wealth of Nations</h3>
+              <div class="author">Adam Smith</span></div>
+              <a href="#" class="btn">read</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/book2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>More Than This</h3>
+              <div class="author">Patrick Ness</div>
+              <a href="#" class="btn">read</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/book3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Divine Comedy</h3>
+              <div class="author">Dante Alighieri</span></div>
+              <a href="#" class="btn">read</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/book4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Subliminal</h3>
+              <div class="author">Leonard Mlodinow</div>
+              <a href="#" class="btn">read</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/book5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Aerogrammes</h3>
+              <div class="author">Tania James</div>
+              <a href="#" class="btn">read</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/book6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Joseph Anton</h3>
+              <div class="author">Salman Rushdie</span></div>
+              <a href="#" class="btn">read</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/book7.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>A Small Fortune</h3>
+              <div class="author">Rosie Dastgir</div>
+              <a href="#" class="btn">read</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/book8.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Memoirs Combatant</h3>
+              <div class="author">Alex Gilvarry</div>
+              <a href="#" class="btn">read</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/book9.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Goldfinch </h3>
+              <div class="author">Donna Tartt</span></div>
+              <a href="#" class="btn">read</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="image/book10.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>A Teaspoon of Earth</h3>
+              <div class="author">Dina Nayeri</div>
+              <a href="#" class="btn">read</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- popular books section ends -->
+
+    <!-- newsletter section starts -->
+
+    <section class="newsletter">
+      <form action="">
+        <h3>sign-in for latest updates</h3>
+        <input
+          type="email"
+          name=""
+          placeholder="enter your email"
+          id=""
+          class="box"
+        />
+        <input type="submit" value="sign-in" class="btn" />
+      </form>
+    </section>
+
+    <!-- newsletter section ends -->
+
+    <!-- library section starts  -->
+
+    <section class="arrivals" id="arrivals">
+      <h1 class="heading"><span>Library</span></h1>
+             
+            <!-- search buttons starts -->
+            
+             <div class="search-container">
+              <input type="text" placeholder="Book Title" class="search-input">
+              <select class="search-input">
+              <option value="" disabled selected>Book Category</option>
+              <option value="fiction">Fiction</option>
+              <option value="non-fiction">Non-Fiction</option>
+              <option value="science">Science</option>
+              <option value="history">History</option>
+               </select>
+                 <select class="search-input">
+                  <option value="" disabled selected>Book Author</option>
+                  <option value="author1">Tania James</option>
+                  <option value="author2">Rosie Dastgir</option>
+                  <option value="author3">Adam Smith</option>
+                  <option value="author4">Satyajit Ray</option>
+                </select>
+              </div>
+   
+     <!-- search buttons ends -->
+
+      <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="image/lib1.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The God of the Woods</h3>
+              <div class="author">Liz Moore</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="image/lib2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Women</h3>
+              <div class="author">Kristin Hannah</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="image/lib3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Sandwich</h3>
+              <div class="author">Catherine Newman</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="image/lib4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>James</h3>
+              <div class="author">Percival Everett</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="image/lib5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>All Fours</h3>
+              <div class="author">Miranda July</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="image/lib6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Demon of Unrest</h3>
+              <div class="author">Erik Larson</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="image/lib7.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Autocracy, Inc</h3>
+              <div class="author">Anne Applebaum</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="image/lib8.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Anxious Generation</h3>
+              <div class="author">Jonathan Haidt</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="image/lib9.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Wager</h3>
+              <div class="author">David Grann</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="image/lib10.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Creative Act</h3>
+              <div class="author">Rick Rubin</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- library section ends -->
+
+    <!-- Discussions session starts -->
+    <section class="discussions" id="discussions">
+      <h1 class="heading"><span>discussions</span></h1>
+      <h2>Book of the week</h2>
+      <p for="discussion-title">Discussion Topic:Author's Perspective</p>
+      <div class="image">
+        <div class="image1"><img src="image/book3.jpg" alt="" height="300"></div>
+
+          </div>
+
+          <div class="tabs">
+            <button type="button" class="tab-button active" data-tab="write">Write</button>
+            <button type="button" class="tab-button" data-tab="preview">Preview</button>
+        </div>
+
+          <div class="tab-content write active">
+            <textarea id="discussion-body" name="discussion-body" placeholder="Ask a question, start a conversation, or make an announcement"></textarea>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" value="Start Discussion" class="btn1" id="submit-button"/>
+          </div>
+    </section>
+    <!-- Discussions session ends -->
+
+    <!-- reviews section starts  -->
+    <section class="reviews" id="reviews">
+      <h1 class="heading"><span>reviews</span></h1>
+
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/pic-1.png" alt="" />
+            <h3>john</h3>
+            <p>This book really tries to do a good job of explaining what our subconscious is and how it influences our behavior. Yet, for me it is a little heavy on the science and a little light on the application.<h5>about Subliminal book</h5>
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pic-2.png" alt="" />
+            <h3>Juliya</h3>
+            <p> I took notes throughout the whole book. You can really tell reading this book how Adam Smith laid the groundwork for modern economics.This book will be “must reading” for all students of economic<h5>about the Wealth of nation</h5>
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pic-3.png" alt="" />
+            <h3>Joy</h3>
+            <p>An entertaining debut novel reminiscent of Zadie Smith’s White Teeth that explores the lives of an extended Pakistani family of immigrants in London—all with a gently humorous touch and fond but wry eye.<h5>about the small Fortune</h5>
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image/pic-4.png" alt="" />
+            <h3>Priya</h3>
+            <p>I was hoping A Teaspoon of Earth would be an exploration of the relationship of twin sisters and the grief of losing one another.The idea of a girl coping with her grief through her imagination and stories
+              <h5>about Teaspoon of Earth</h5></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pic-5.png" alt="" />
+            <h3>Vinod</h3>
+            <p> It's a book that bracingly reaffirms my faith in literature,making me endlessly astonished by its power and poise and brilliance.but this is truly one of the greatest books I've ever read.<h5>about the goldfinch book</h5>
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pic-6.png" alt="" />
+            <h3>Jin</h3>
+            <p>
+              It's a book that keeps everything in perspective by reminding me to offer my effort to God, to see my work as a service to others, and to not worry about what happens after that.<h5>About Bhagavad Gita Book</h5>
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- reviews section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+    
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> popular </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> library </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+        </div>
+
+        <div class="box">
+          <h3>extra links</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+
+          <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +91 9177829853</a>
+          <a href="#">
+            <i class="fas fa-envelope"></i> naveenk0710@gmail.com
+          </a>
+          <img src="image/worldmap.png" class="map" alt="" />
+        </div>
+      </div>
+
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="credit">
+        created by <span>Naveen</span> | all rights reserved!
+        <p class="copyright">©K_Naveen_2024</p>
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- loader  -->
+
+    <div class="loader-container">
+      <img src="image/loader-img.gif" alt="" />
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
